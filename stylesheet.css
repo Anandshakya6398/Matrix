@@ -1,0 +1,36 @@
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 80px);
+      gap: 10px;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      background-color: blue;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .box:hover {
+      background-color: darkblue;
+      transform: scale(1.1);
+    }
+
+    .active {
+      background-color: red;
+    }
+
+    .active:hover {
+      background-color: darkred;
+      transform: scale(1.1);
+    }
