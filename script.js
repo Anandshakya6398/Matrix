@@ -24,7 +24,7 @@
         oldest.classList.remove("active");
       }
     });
-
+    // Append box to grid and store in boxes array
     grid.appendChild(box);
     boxes.push(box);
   }
