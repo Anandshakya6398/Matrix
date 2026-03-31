@@ -31,6 +31,7 @@
 
   // Initialize: Set 3 random boxes to red on page load
   function initializeRandomBoxes() {
+    // Generate 3 unique random indices for boxes
     const randomIndices = [];
     while (randomIndices.length < 3) {
       const index = Math.floor(Math.random() * 25);
