@@ -2,6 +2,10 @@
 
 A simple, interactive web application featuring a 5×5 grid of clickable boxes with dynamic state management.
 
+## Live Demo
+
+🚀 **[Play the Game Live](https://matrixgame0.netlify.app/)**
+
 ## Features
 
 - **Interactive Grid**: 25 clickable boxes arranged in a 5×5 matrix
