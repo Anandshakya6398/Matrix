@@ -34,6 +34,7 @@
     // Generate 3 unique random indices for boxes
     const randomIndices = [];
     while (randomIndices.length < 3) {
+        // Generate a random index between 0 and 24
       const index = Math.floor(Math.random() * 25);
       if (!randomIndices.includes(index)) {
         randomIndices.push(index);
