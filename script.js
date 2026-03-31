@@ -20,6 +20,7 @@
       // If more than 3, remove oldest
       if (activeBoxes.length > 3) {
         const oldest = activeBoxes.shift();
+        // Remove active class from the oldest box
         oldest.classList.remove("active");
       }
     });
