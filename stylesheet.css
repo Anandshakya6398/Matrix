@@ -8,7 +8,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(5, 80px);
+      grid-template-columns: repeat(5, 80px); /* 5 columns of 80px each */
       gap: 10px;
     }
 
